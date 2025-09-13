@@ -1,13 +1,28 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import LLCHeroSection from "@/components/LLCHeroSection";
+import LLCProblemSection from "@/components/LLCProblemSection";
+import LLCBurdenSection from "@/components/LLCBurdenSection";
+import LLCSolutionSection from "@/components/LLCSolutionSection";
+import LLCSocialProofSection from "@/components/LLCSocialProofSection";
+import LLCCapabilitiesSection from "@/components/LLCCapabilitiesSection";
+import LLCIntegrationSection from "@/components/LLCIntegrationSection";
+import LLCEducationSection from "@/components/LLCEducationSection";
+import LLCConsultationForm from "@/components/LLCConsultationForm";
+import LLCFooter from "@/components/LLCFooter";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="min-h-screen">
+      <LLCHeroSection />
+      <LLCProblemSection />
+      <LLCBurdenSection />
+      <LLCSolutionSection />
+      <LLCSocialProofSection />
+      <LLCCapabilitiesSection />
+      <LLCIntegrationSection />
+      <LLCEducationSection />
+      <LLCConsultationForm />
+      <LLCFooter />
+    </main>
   );
 };
 
